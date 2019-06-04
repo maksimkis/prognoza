@@ -1,0 +1,61 @@
+/* ovo je CSS datoteka */
+
+body {
+    background: #fff;
+    font-family: Arial, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #32728e;
+  color: white;
+}
+
+.active {
+  background-color:#32728e;
+  color:#fff;
+}
+
+h2{
+    text-decoration:none;
+    text-align:center;
+    color:#0e3f54;
+    font-size:30px;
+}
+p{
+    font-size:45px;
+    color:#0e3f54;
+
+}
+
+.img-mali{
+    width:75px;
+    height:75px;
+}
